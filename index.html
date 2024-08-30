@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses você estava se perguntando para onde você deveria viajar nas próximas férias!</p>
+            <button class="btn-proximo" data-proximo="1">Estados Unidos</button>
+            <button class="btn-proximo" data-proximo="2">Portugal</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide ir para os Estados Unidos junto com sua família e se pergunta para qual ponto turístico vocês deveriam ir primeiro.</p>
+            <button class="btn-proximo" data-proximo="3">Visitar a Estátua da Liberdade</button>
+            <button class="btn-proximo" data-proximo="4">Visitar a Walt Disney World</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decidiu viajar para Portugal com seus melhores amigos e vocês passam por vários lugares interessantes, depois de alguns minutos de caminhada vocês tentam decidir para onde ir.</p>
+            <button class="btn-proximo" data-proximo="5">Visitar um evento anual que está ocorrendo no momento.</button>
+            <button class="btn-proximo" data-proximo="6">Visitar uma das praias mais famosas de Portugal e relaxar um pouco.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Perto da Estátua da Liberdade você tira muitas fotos com sua família e ficam observando o cenário bonito por um tempo.</p>
+            <button class="btn-proximo" data-proximo="7">Descansar um pouco.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem passando um tempo com a família">
+            <p>No final do passeio você está bem cansado e decide passar o resto do tempo livre dentro de um hotel.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Vocês se deparam com um evento famoso de churrasco de carneiro e decidem participar para se divertirem um pouco.</p>
+            <button class="btn-proximo" data-proximo="7">Descansar um pouco.</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
